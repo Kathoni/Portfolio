@@ -6,6 +6,8 @@ import Myimage3 from "../assets/REACT.jpeg";
 import Myimage4 from "../assets/git hub.jpeg";
 import Myimage5 from "../assets/Bootstrap.jpeg";
 import Myimage6 from "../assets/CSS.jpeg";
+import Projects from './Projects';
+import Contact from './Contact';
 
 function Home() {
     return (
@@ -18,7 +20,7 @@ function Home() {
                 width: "60%"
             }}>
                 <h1>Hello 👋🏾.
-                    <br />Welcome to my page</h1>
+                    <br />Welcome to my page <br />I'm Sylvia Kathoni a front-end-developer</h1>
             </section>
             <section style={{ display: "flex", marginLeft: "15px", alignItems: "center" }}>
                 <div style={{ flex: 1 }}>
@@ -83,6 +85,10 @@ function Home() {
                     </li>
                 </ul>
             </section>
+            <div>
+                <Projects />
+                <Contact/>
+            </div>
         </div>
     )
 }
