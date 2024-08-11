@@ -55,7 +55,7 @@ function Home() {
             </section>
             <section
             style={{ textAlign: "center" }}>
-                <h1>I am farmiliar with</h1>
+                <h1>I am familiar with</h1>
                 <ul>
                     <li style={{
                         listStyle: "none",
