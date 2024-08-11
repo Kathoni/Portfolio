@@ -1,7 +1,7 @@
 const appLinks ={
     Home: "/",
     Projects: "/projects",
-    Contact: "/Cntact",
+    Contact: "/Contact",
 
 }
 export { appLinks};

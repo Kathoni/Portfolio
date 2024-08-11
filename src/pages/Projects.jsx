@@ -6,6 +6,7 @@ function Projects() {
         <h1>
             Here are some of the projects I have worked on so far.
         </h1>
+        
     </div>
   )
 }
