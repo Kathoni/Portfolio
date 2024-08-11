@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './pages/Home'
+import BaseRouter from './Constants/Routes'
 
 function App() {
   return (
     <div>
-      <Home/>
+      <BaseRouter/>
     </div>
   )
 }
